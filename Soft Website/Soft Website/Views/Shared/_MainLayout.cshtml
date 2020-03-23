@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Css/slick-theme.css">
+    <link rel="stylesheet" href="~/Css/normalize.css">
+    <link rel="stylesheet" href="~/Css/font-awesome.css">
+    <link rel="stylesheet" href="~/Css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--    Start  NavBar    -->
+    <div class="navbar">
+        <div class="container">
+            <h2>Soft Challengers</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <i class="fa fa-bars minuBar"></i>
+        </div>
+    </div>
+    <!--    End NavBar    -->
+
+    @RenderBody()
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="feat_footer social_med">
+                <h2>Soft Challengers</h2>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <div class="feat_footer">
+                <h2>Usefull Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="feat_footer">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="#">24 Nour El-Deen Bahgat, Al Manteqah Ath Thamenah, Nasr City, Luxor Governorate</a></li>
+                    <li><a href="#">comapny@softchallengers.com</a></li>
+                    <li><a href="#">+2-0114864573 <br /> +2-01020037189</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyRight"> &#64;softchallengers - Agency Company. &copy;All rights reserved <br>Powered by softchallengers</div>
+
+
+    <!--End Footer-->
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/slick.min.js"></script>
+    <script src="~/js/jquery.waypoints.min.js"></script>
+    <script src="~/js/jquery.counterup.min.js"></script>
+    <script src="~/js/test.js"></script>
+</body>
+</html>

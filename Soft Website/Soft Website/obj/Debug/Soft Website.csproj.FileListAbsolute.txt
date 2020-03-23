@@ -1,0 +1,66 @@
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\csc.exe
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\vbc.exe
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\VBCSCompiler.exe
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Soft Website.dll.config
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Soft Website.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Soft Website.pdb
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\EntityFramework.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\EntityFramework.SqlServer.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Helpers.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Mvc.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Razor.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Webpages.Deployment.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Webpages.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Webpages.Razor.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\EntityFramework.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\EntityFramework.SqlServer.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Razor.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Webpages.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Webpages.Deployment.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Webpages.Razor.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Helpers.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Mvc.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\obj\Debug\Soft Website.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\obj\Debug\Soft Website.pdb
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Antlr3.Runtime.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Newtonsoft.Json.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Owin.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Optimization.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\WebGrease.dll
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Antlr3.Runtime.pdb
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\Newtonsoft.Json.xml
+c:\users\mohamed hosny\documents\visual studio 2015\Projects\Soft Website\Soft Website\bin\System.Web.Optimization.xml
+C:\Users\Mohamed Hosny\Documents\Visual Studio 2015\Projects\Soft Website\Soft Website\obj\Debug\Soft Website.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Hosny\Documents\Visual Studio 2015\Projects\Soft Website\Soft Website\obj\Debug\Soft_Website.Migrations.InitialCreate.resources
+C:\Users\Mohamed Hosny\Documents\Visual Studio 2015\Projects\Soft Website\Soft Website\obj\Debug\Soft Website.csproj.GenerateResource.Cache
+C:\Users\Mohamed Hosny\Documents\Visual Studio 2015\Projects\Soft Website\Soft Website\obj\Debug\Soft_Website.Migrations.Firstmigration.resources
