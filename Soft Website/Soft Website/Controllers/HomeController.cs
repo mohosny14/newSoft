@@ -11,11 +11,14 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        [Route("Index")]
+        [Route("")]
         public ActionResult Index()
         {
             return View();
         }
 
+        [Route("About")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -24,12 +27,14 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet]
+        [Route("Contact")]
         public ActionResult Contact()
         {
             return View();
         }
 
         [HttpPost]
+        [Route("Contact")]
         public ActionResult Contact(Contact contact)
         {
 
@@ -51,9 +56,12 @@ namespace WebApplication1.Controllers
 
             smtpClient.Credentials = loginInfo;
             smtpClient.Send(mail);
+            if (contact.message != null)
+            {
+                ViewBag.msg = "Your Message Sent Successfully!";
+            }
 
             return RedirectToAction("Index");
-
         }
     }
 }

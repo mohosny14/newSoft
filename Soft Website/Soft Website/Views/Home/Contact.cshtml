@@ -2,48 +2,82 @@
 
 @{
     ViewBag.Title = "Contact";
-    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    Layout = "~/Views/Shared/_IntroHeaderLayout_1.cshtml";
+    ViewBag.Message = "We are happy to communicate with you";
 }
 
-<h2>Contact</h2>
-
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>Contact</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+
+    @*<div class="form-horizontal">
+            <h4>Contact</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.E_mail, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.E_mail, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.E_mail, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.message, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.message, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.message, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>*@
+
+
+    <div class="contact">
+        <div class="container">
+            <h3>Contact Us</h3>
+            <div class="left_contact">
+                <img src="imgs/contact1.png">
+            </div>
+            <div class="right_contact">
+                <label>Name*</label><br>
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @type = "text" } })
                 @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
-            </div>
-        </div>
+                @*<input type="text">*@
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.E_mail, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.E_mail, new { htmlAttributes = new { @class = "form-control" } })
+                <label>Email*</label><br>
+                @Html.EditorFor(model => model.E_mail, new { htmlAttributes = new { @type = "email" } })
                 @Html.ValidationMessageFor(model => model.E_mail, "", new { @class = "text-danger" })
-            </div>
-        </div>
+                @*<input type="email">*@
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.message, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.message, new { htmlAttributes = new { @class = "form-control" } })
+                <label>Message*</label><br>
+                @Html.TextAreaFor(model => model.message, new { @class = "msg" })
                 @Html.ValidationMessageFor(model => model.message, "", new { @class = "text-danger" })
-            </div>
-        </div>
+                @*<textarea name="message" class="msg"></textarea>*@
+                <br>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <button type="submit">
+                    Send
+                    <i class="fa fa-paper-plane"></i>
+                </button>
+
             </div>
         </div>
     </div>
+
+
 }
 

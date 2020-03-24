@@ -17,13 +17,22 @@
     <!--    Start  NavBar    -->
     @Html.Partial("_Navbar")
     <!--    End NavBar    -->
+    <!--#region    Start  Intro Header    -->
+    <div class="header other">
+        <div class="other_cover">
 
+            <div class="container">
+                <h1>@ViewBag.Message</h1>
+            </div>
+
+        </div>
+    </div>
+    <!--#endregion    Intro Header    -->
     @RenderBody()
 
     <!--Footer-->
     @Html.Partial("_Footer")
     <!--End Footer-->
-
     <script src="~/js/jquery-3.3.1.min.js"></script>
     <script src="~/js/slick.min.js"></script>
     <script src="~/js/jquery.waypoints.min.js"></script>
