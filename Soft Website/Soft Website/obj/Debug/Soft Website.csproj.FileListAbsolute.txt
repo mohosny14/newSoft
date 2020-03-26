@@ -131,3 +131,69 @@ E:\C Projects\My-Github\newSoft\Soft Website\Soft Website\obj\Debug\Soft Website
 E:\C Projects\My-Github\newSoft\Soft Website\Soft Website\obj\Debug\Soft Website.csproj.CopyComplete
 E:\C Projects\My-Github\newSoft\Soft Website\Soft Website\obj\Debug\Soft Website.dll
 E:\C Projects\My-Github\newSoft\Soft Website\Soft Website\obj\Debug\Soft Website.pdb
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\csc.exe
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\System.Collections.Immutable.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\System.Reflection.Metadata.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\vbc.exe
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\VBCSCompiler.exe
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\roslyn\VBCSCompiler.exe.config
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Soft Website.dll.config
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Soft Website.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Soft Website.pdb
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Antlr3.Runtime.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\EntityFramework.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\EntityFramework.SqlServer.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Core.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Cookies.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Google.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.OAuth.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Web.Infrastructure.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Newtonsoft.Json.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Owin.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Helpers.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Mvc.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Optimization.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Razor.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Webpages.Deployment.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Webpages.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Webpages.Razor.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\WebGrease.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Antlr3.Runtime.pdb
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\EntityFramework.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\EntityFramework.SqlServer.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Core.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Cookies.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.Google.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Microsoft.Owin.Security.OAuth.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\Newtonsoft.Json.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Optimization.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Razor.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Webpages.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Webpages.Deployment.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Webpages.Razor.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Helpers.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\bin\System.Web.Mvc.xml
+D:\My-GitHub\newSoft\Soft Website\Soft Website\obj\Debug\Soft_Website.Migrations.InitialCreate.resources
+D:\My-GitHub\newSoft\Soft Website\Soft Website\obj\Debug\Soft_Website.Migrations.Firstmigration.resources
+D:\My-GitHub\newSoft\Soft Website\Soft Website\obj\Debug\Soft Website.csproj.GenerateResource.Cache
+D:\My-GitHub\newSoft\Soft Website\Soft Website\obj\Debug\Soft Website.dll
+D:\My-GitHub\newSoft\Soft Website\Soft Website\obj\Debug\Soft Website.pdb
+D:\My-GitHub\newSoft\Soft Website\Soft Website\obj\Debug\Soft_Website.Migrations.addRoleAdmin.resources

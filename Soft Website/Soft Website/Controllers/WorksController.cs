@@ -11,108 +11,107 @@ using WebApplication1.Models;
 
 namespace Soft_Website.Controllers
 {
-    public class TeamsController : Controller
+    public class WorksController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: Teams
+        // GET: Works
         public ActionResult Index()
         {
-            return View(db.Teams.ToList());
+            return View(db.Works.ToList());
         }
 
-        // GET: Teams/Details/5
+        // GET: Works/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Team team = db.Teams.Find(id);
-            if (team == null)
+            Work work = db.Works.Find(id);
+            if (work == null)
             {
                 return HttpNotFound();
             }
-            return View(team);
+            return View(work);
         }
 
-        // GET: Teams/Create
-        [Authorize(Roles = "Admins")]
+        // GET: Works/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Teams/Create
+        // POST: Works/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,name,image,Job_title")] Team team)
+        public ActionResult Create([Bind(Include = "Id,title,image,details,features,technologies,projectUrl")] Work work)
         {
             if (ModelState.IsValid)
             {
-                db.Teams.Add(team);
+                db.Works.Add(work);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(team);
+            return View(work);
         }
 
-        // GET: Teams/Edit/5
+        // GET: Works/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Team team = db.Teams.Find(id);
-            if (team == null)
+            Work work = db.Works.Find(id);
+            if (work == null)
             {
                 return HttpNotFound();
             }
-            return View(team);
+            return View(work);
         }
 
-        // POST: Teams/Edit/5
+        // POST: Works/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,name,image,Job_title")] Team team)
+        public ActionResult Edit([Bind(Include = "Id,title,image,details,features,technologies,projectUrl")] Work work)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(team).State = EntityState.Modified;
+                db.Entry(work).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(team);
+            return View(work);
         }
 
-        // GET: Teams/Delete/5
+        // GET: Works/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Team team = db.Teams.Find(id);
-            if (team == null)
+            Work work = db.Works.Find(id);
+            if (work == null)
             {
                 return HttpNotFound();
             }
-            return View(team);
+            return View(work);
         }
 
-        // POST: Teams/Delete/5
+        // POST: Works/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Team team = db.Teams.Find(id);
-            db.Teams.Remove(team);
+            Work work = db.Works.Find(id);
+            db.Works.Remove(work);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -174,6 +174,8 @@
     <Content Include="imgs\headery.gif" />
     <Content Include="imgs\hedaer-bg.png" />
     <Content Include="imgs\hedaer-bgye.png" />
+    <Content Include="imgs\hom.png" />
+    <Content Include="imgs\i1.png" />
     <Content Include="imgs\iconfinder_computer_1055084.png" />
     <Content Include="imgs\imgHead.png" />
     <Content Include="imgs\mob.jpg" />
@@ -210,10 +212,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Controllers\WorksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -225,12 +229,18 @@
     <Compile Include="Migrations\202003231956532_Firstmigration.designer.cs">
       <DependentUpon>202003231956532_Firstmigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003260016400_addRoleAdmin.cs" />
+    <Compile Include="Migrations\202003260016400_addRoleAdmin.Designer.cs">
+      <DependentUpon>202003260016400_addRoleAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Team.cs" />
+    <Compile Include="Models\Work.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -278,6 +288,16 @@
     <Content Include="Views\Shared\_IntroHeaderLayout_1.cshtml" />
     <Content Include="Views\Shared\_Navbar.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Works\Create.cshtml" />
+    <Content Include="Views\Works\Delete.cshtml" />
+    <Content Include="Views\Works\Details.cshtml" />
+    <Content Include="Views\Works\Edit.cshtml" />
+    <Content Include="Views\Works\Index.cshtml" />
+    <Content Include="Views\Categories\Create.cshtml" />
+    <Content Include="Views\Categories\Delete.cshtml" />
+    <Content Include="Views\Categories\Details.cshtml" />
+    <Content Include="Views\Categories\Edit.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -287,7 +307,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Team\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003231744296_InitialCreate.resx">
@@ -295,6 +314,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003231956532_Firstmigration.resx">
       <DependentUpon>202003231956532_Firstmigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003260016400_addRoleAdmin.resx">
+      <DependentUpon>202003260016400_addRoleAdmin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
